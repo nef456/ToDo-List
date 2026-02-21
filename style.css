@@ -1,0 +1,56 @@
+#addTaskButton {
+    background-color: blue;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button{
+    background-color: black;
+    color: red;
+}
+
+.edit-button{
+    background-color: black;
+    color: green;
+}
+
+.save-button{
+    background-color: black;
+    color: blue;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.complete:checked + .task-text {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
