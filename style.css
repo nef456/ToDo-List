@@ -32,6 +32,7 @@ h3 {
 .edit-button{
     background-color: black;
     color: green;
+    gap: 5px;
 }
 
 .save-button{
@@ -53,4 +54,9 @@ h3 {
     text-decoration: line-through;
     text-decoration-color: red;
     text-decoration-thickness: 2px;
+}
+
+li {
+    display: flex;
+    gap: 5px;
 }
